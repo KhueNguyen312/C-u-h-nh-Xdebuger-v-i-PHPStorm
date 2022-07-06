@@ -36,6 +36,10 @@ sudo nano /etc/php/7.2/apache2/php.ini
 và thêm 
 ```shell
 zend_extension=/usr/lib/php/20190902/xdebug.so
+xdebug.remote_enable=1
+xdebug.remote_host=localhost
+xdebug.remote_port=9000
+xdebug.remote_handler="dbgp"
 ```
 vào sau
 ```shell
@@ -47,3 +51,10 @@ sau đó restart lại web server
 ```shell 
 sudo service apache2 restart
 ```
+Cài đặt PHPStorm bằng lệnh
+```
+sudo snap install phpstorm --classic phpstorm
+```
+Nếu có rồi thì bỏ qua bước này
+Mở phpstorm vừa cài đặt Chọn File -> Settings -> Languages & Frameworks -> PHP -> Debug. Trong mục Xdebug, điền đúng Xdebug port đã cấu hình ở file xdebug.ini và lưu lại.
+![image](https://user-images.githubusercontent.com/37147552/177470700-fc2aa885-e63e-45ca-93d6-097d931f3425.png)
