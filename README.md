@@ -1,4 +1,4 @@
-# Cách cài đặt Xdebug và config với PHPStorm trên HDH Linux
+# Cách cài đặt Xdebug và config với PHPStorm trên Linux
 ## Bước 1: Cài đặt Xdebug
 1. Cài đặt Xdebug sử dụng lệnh:
 ```shell
