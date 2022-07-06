@@ -65,6 +65,7 @@ Trong File -> Settings -> Languages & Frameworks -> PHP. Chọn phiên bản PHP
 Chọn button ... trong dòng CLI Interpreter
 ![Screenshot from 2022-07-06 13-58-01](https://user-images.githubusercontent.com/37147552/177488661-4119d052-62fa-4c0a-8208-d0dead193178.png)
 Chọn button + góc trên bên trái và chọn /usr/bin/php sau đó bấm button refesh ở dòng php executable. Sau khi cài đặt thành công ta sẽ thấy hiển thị phiên bản Xdebug đã cài như hình dưới đây
+
 ![Screenshot from 2022-07-06 14-04-01](https://user-images.githubusercontent.com/37147552/177489812-2a2b11d1-d284-4413-bcc2-20fda6c01897.png)
 
 ## Bước 3: Cài đặt Chrome Xdebug và config
