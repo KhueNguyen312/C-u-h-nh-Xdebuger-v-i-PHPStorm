@@ -51,10 +51,15 @@ sau đó restart lại web server
 ```shell 
 sudo service apache2 restart
 ```
+## Bước 2: Config trên PHPStorm
 Cài đặt PHPStorm bằng lệnh
 ```
 sudo snap install phpstorm --classic phpstorm
 ```
-Nếu có rồi thì bỏ qua bước này
+
 Mở phpstorm vừa cài đặt Chọn File -> Settings -> Languages & Frameworks -> PHP -> Debug. Trong mục Xdebug, điền đúng Xdebug port đã cấu hình ở file xdebug.ini và lưu lại.
 ![image](https://user-images.githubusercontent.com/37147552/177470700-fc2aa885-e63e-45ca-93d6-097d931f3425.png)
+
+Trong File -> Settings -> Languages & Frameworks -> PHP. Chọn phiên bản PHP phù hợp.
+
+Chọn button ... trong dòng CLI Interpreter
